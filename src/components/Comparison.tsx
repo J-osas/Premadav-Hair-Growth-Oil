@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { ArrowRightLeft } from 'lucide-react';
+import hairComparisonImage from '../assets/images/hair_comparison_1781657256650.jpg';
 
 export default function Comparison() {
   return (
@@ -36,7 +37,7 @@ export default function Comparison() {
             {/* Comparison Image */}
             <div className="aspect-[16/8] sm:aspect-[16/7.5] w-full relative">
               <img
-                src="/src/assets/images/hair_comparison_1781657256650.jpg"
+                src={hairComparisonImage}
                 alt="Split screen comparison. Left: dry coarse brittle frizzy coils. Right: hydrated glossy healthy defined juicy curls after applying Premadav hair growth oil"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

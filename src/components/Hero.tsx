@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { Sparkles, MessageCircle, ArrowRight, ShieldCheck } from 'lucide-react';
+import heroProductImage from '../assets/images/hero_product_1781657205797.jpg';
 
 export default function Hero() {
   const whatsappNumber = '447909390507'; // Real placeholder
@@ -139,7 +140,7 @@ export default function Hero() {
               {/* Product render container with premium look */}
               <div className="w-full h-full rounded overflow-hidden bg-brown-900 border border-amber/15 shadow-2xl relative">
                 <img
-                  src="/src/assets/images/hero_product_1781657205797.jpg"
+                  src={heroProductImage}
                   alt="Premadav Hair Growth Oil premium 50ml glass dropper on marble vanity table surrounded by fresh rosemary foliage and lavender buds"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

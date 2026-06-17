@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { Heart, Flower2 } from 'lucide-react';
+import lifestyleMassageImage from '../assets/images/lifestyle_massage_1781657239733.jpg';
 
 export default function Story() {
   return (
@@ -67,7 +68,7 @@ export default function Story() {
               className="relative w-full aspect-4/3 sm:aspect-16/10 rounded overflow-hidden bg-cream border border-forest/10 shadow-xl"
             >
               <img
-                src="/src/assets/images/lifestyle_massage_1781657239733.jpg"
+                src={lifestyleMassageImage}
                 alt="Beautiful young African woman with natural coily hair smiling peacefully as she massages Premadav Oil into her roots by a sunny window"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

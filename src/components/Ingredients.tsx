@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { Sparkles, Droplet } from 'lucide-react';
+import ingredientsFlatlayImage from '../assets/images/ingredients_flatlay_1781657222286.jpg';
 
 export default function Ingredients() {
   const listItems = [
@@ -88,7 +89,7 @@ export default function Ingredients() {
               className="relative w-full max-w-[340px] aspect-4/5 rounded overflow-hidden bg-brown-900 border border-amber/10 shadow-2xl"
             >
               <img
-                src="/src/assets/images/ingredients_flatlay_1781657222286.jpg"
+                src={ingredientsFlatlayImage}
                 alt="Styled ingredients flat lay displaying the amber glass dropper bottle along with fresh therapeutic rosemary leaves, extra virgin olive oil drops, and star anise pods"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
