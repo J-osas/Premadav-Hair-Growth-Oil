@@ -7,7 +7,7 @@ import { motion } from 'motion/react';
 import { Sparkles, MessageCircle, ArrowRight, ShieldCheck } from 'lucide-react';
 
 export default function Hero() {
-  const whatsappNumber = '23450000000'; // Real placeholder
+  const whatsappNumber = '447909390507'; // Real placeholder
   const heroSubtext = "Give it back what it deserves.";
   const heroDescription = "Premadav Hair Growth Oil is a 100% natural, nourishing blend crafted to restore your hair's strength, shine, and scalp vitality—from root to tip. No chemicals. No compromise. Just pure, honest love.";
 

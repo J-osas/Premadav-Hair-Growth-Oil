@@ -9,7 +9,7 @@ import { ShoppingBag, MessageCircle, Sparkles, CheckCircle2 } from 'lucide-react
 import { OrderData, PackageOption } from '../types';
 
 export default function OrderForm() {
-  const whatsappNumber = '23450000000'; // Target WhatsApp line
+  const whatsappNumber = '447909390507'; // Target WhatsApp line
   
   const packages: PackageOption[] = [
     {

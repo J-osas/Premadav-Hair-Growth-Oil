@@ -51,7 +51,7 @@ export default function Footer() {
               REACH US
             </h4>
             <div className="flex flex-col gap-4 text-xs font-semibold w-full text-earth">
-              <a href="https://wa.me/23450000000" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-amber transition-colors uppercase tracking-wider">
+              <a href="https://wa.me/447909390507" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-amber transition-colors uppercase tracking-wider">
                 <div className="w-8 h-8 rounded bg-forest/5 flex items-center justify-center flex-shrink-0 border border-forest/10">
                   <PhoneCall className="w-3.5 h-3.5 text-amber" />
                 </div>
